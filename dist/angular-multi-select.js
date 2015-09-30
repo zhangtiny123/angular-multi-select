@@ -1165,7 +1165,7 @@ angular_multi_select.directive('angularMultiSelect', ['$rootScope', '$sce', '$ti
 
 				var classes = "";
 				if(_dist_to_bottom_border < 0 && _dist_to_top_border >= _bounds.height) {
-					classes += "position_top ";
+					classes += "position_bottom ";
 				}
 
 				if(_dist_to_right_border < 0 && _dist_to_left_border > _bounds.width) {
@@ -1183,7 +1183,7 @@ angular_multi_select.directive('angularMultiSelect', ['$rootScope', '$sce', '$ti
 			$scope._close_pos = function() {
 				var ams_layer = angular.element(element[0].querySelector(".ams_layer"));
 
-				ams_layer.removeClass("position_top");
+				ams_layer.removeClass("position_bottom");
 				ams_layer.removeClass("position_left");
 			};
 
