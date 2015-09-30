@@ -21,7 +21,7 @@ You can download this library from `npm` or `bower`.
 
 or
 
-    bower install angular-multi-select-alexandernst
+    bower install angular-multi-select-tiny
 
 ### Building
 
